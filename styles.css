@@ -1,0 +1,171 @@
+body{
+    background-color: black;
+}
+
+.wrapper{
+    margin-top: 12vh;
+    height: 600px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sistema{
+    position:relative;
+    height: 100%;
+    width: 550px;
+}
+.orbita{
+    list-style: none;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 50%;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: orbita;
+    z-index: -999999999999;
+}
+.centro{
+    list-style: none;
+    border-radius: 50%;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: orbita;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    animation-duration: 4s;
+    top:250px;
+    left: 250px;
+}
+.img-sun{
+width: 100%;
+}
+
+@keyframes orbita {
+    to{transform: rotate(0deg);}
+    from{transform: rotate(360deg);}    
+}
+.orbita.um{
+    height: 200px;
+    width: 200px;
+    animation-duration: 4s;
+    top: 200px;
+    left: 200px;
+}
+.orbita.dois{
+    height: 250px;
+    width: 250px;
+    animation-duration: 25s;
+    top: 175px;
+    left: 175px;
+}
+.orbita.tres{
+    height: 325px;
+    width: 325px;  
+    animation-duration: 100s;
+    top: 137.5px;
+    left: 137.5px;
+}
+.orbita.quatro{
+    height: 400px;
+    width: 400px;  
+    animation-duration: 100s;
+    top: 100px;
+    left: 100px;
+}
+.orbita.cinco{
+    height: 500px;
+    width: 500px;  
+    animation-duration: 100s;
+    top: 50px;
+    left: 50px;
+    z-index: -9999999999999;
+}
+.orbita.seis{
+    height: 600px;
+    width: 600px;  
+    animation-duration: 100s;
+    top: 0px;
+    left: 0px;
+}
+.orbita.sete{
+    height: 700px;
+    width: 700px;  
+    animation-duration: 100s;
+    top: -50px;
+    left: -50px;
+}
+.orbita.oito{
+    height: 800px;
+    width: 800px;  
+    animation-duration: 100s;
+    top: -100px;
+    left: -100px;
+}
+
+.planeta{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    z-index: 99999999999999;
+}
+.planeta.um{
+    top: 60px;
+}
+.img-mercurio{
+    width: 13%;
+}
+.planeta.dois{
+    top: 80px;
+}
+.img-venus{
+    width: 25%;
+}
+.planeta.tres{
+    top: 80px;
+}
+.img-terra{
+    width: 60%;
+}
+.planeta.quatro{
+    top: 140px;
+    right: -35px;
+}
+.img-marte{
+    width: 25%;
+    z-index: 9;
+}
+.planeta.cinco{
+    top: 480px;
+    right: 200px;
+}
+.img-jupiter{
+    width: 85%;
+}
+.planeta.seis{
+    top: 0px;
+    left: 180px;
+}
+.img-saturno{
+    width: 70%;
+}
+.planeta.sete{
+    top: 485px;
+    left: 20px;
+}
+.img-urano{
+    width: 51%;
+}
+.planeta.oito{
+    top: 709px;
+    left: 640px;
+}
+.img-netuno{
+    width: 35%;
+}
+
+
+
