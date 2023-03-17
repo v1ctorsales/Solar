@@ -208,6 +208,20 @@ width: 100%;
     top: 80%;
 }
 
+.icone:hover{
+    position: absolute;
+    left: 85%;
+    top: 80%;
+    color: rgb(255, 249, 166);
+}
+
+.textbox{
+    position: absolute;
+    left: 85%;
+    top: 70%;
+    display: none;
+}
+
 a{
     text-decoration: none;
     color: #bdbdbd;
