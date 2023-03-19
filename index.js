@@ -3,13 +3,13 @@ document.querySelectorAll(".navul li")[0].addEventListener("mouseout",()=>mouseF
 
 function mouseForaSOL(){
     for(x=0;x<8;x++){
-        document.querySelectorAll(".orbita img")[x].classList.remove("invisivel");
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
     }
 }
 
 function handleHoverSOL(){
     for(x=0;x<8;x++){
-    document.querySelectorAll(".orbita img")[x].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[x].classList.add("invisivel");
 }
 }
 
@@ -20,13 +20,13 @@ document.querySelectorAll(".navul li")[1].addEventListener("mouseout",()=>mouseF
 
 function mouseForaMER(){
     for(x=1;x<8;x++){
-        document.querySelectorAll(".orbita img")[x].classList.remove("invisivel");
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
     }
 }
 
 function handleHoverMER(){
     for(x=1;x<8;x++){
-    document.querySelectorAll(".orbita img")[x].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[x].classList.add("invisivel");
 }
 }
 
@@ -36,16 +36,16 @@ document.querySelectorAll(".navul li")[2].addEventListener("mouseover",()=>handl
 document.querySelectorAll(".navul li")[2].addEventListener("mouseout",()=>mouseForaVEN())
 
 function mouseForaVEN(){
-    document.querySelectorAll(".orbita img")[0].classList.remove("invisivel");
+    document.querySelectorAll(".orbita")[0].classList.remove("invisivel");
     for(x=2;x<8;x++){
-        document.querySelectorAll(".orbita img")[x].classList.remove("invisivel");
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
     }
 }
 
 function handleHoverVEN(){
-    document.querySelectorAll(".orbita img")[0].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[0].classList.add("invisivel");
     for(x=2;x<8;x++){
-    document.querySelectorAll(".orbita img")[x].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[x].classList.add("invisivel");
 }
 }
 
@@ -55,17 +55,126 @@ document.querySelectorAll(".navul li")[3].addEventListener("mouseover",()=>handl
 document.querySelectorAll(".navul li")[3].addEventListener("mouseout",()=>mouseForaTER())
 
 function mouseForaTER(){
-    document.querySelectorAll(".orbita img")[0].classList.add("invisivel");
-    document.querySelectorAll(".orbita img")[1].classList.remove("invisivel");
-    for(x=3;x<8;x++){
-        document.querySelectorAll(".orbita img")[x].classList.remove("invisivel");
+    document.querySelectorAll(".orbita")[0].classList.remove("invisivel");
+    document.querySelectorAll(".orbita")[1].classList.remove("invisivel");
+    for(x=3;x<8;x++) {
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
     }
 }
 
 function handleHoverTER(){
-    document.querySelectorAll(".orbita img")[0].classList.add("invisivel");
-    document.querySelectorAll(".orbita img")[1].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[0].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[1].classList.add("invisivel");
     for(x=3;x<8;x++){
-    document.querySelectorAll(".orbita img")[x].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[x].classList.add("invisivel");
 }
+}
+
+// Marte
+
+document.querySelectorAll(".navul li")[4].addEventListener("mouseover",()=>handleHoverMAR())
+document.querySelectorAll(".navul li")[4].addEventListener("mouseout",()=>mouseForaMAR())
+
+function mouseForaMAR(){
+    document.querySelectorAll(".orbita")[0].classList.remove("invisivel");
+    document.querySelectorAll(".orbita")[1].classList.remove("invisivel");
+    document.querySelectorAll(".orbita")[2].classList.remove("invisivel");
+    for(x=4;x<8;x++) {
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
+    }
+}
+
+function handleHoverMAR(){
+    document.querySelectorAll(".orbita")[0].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[1].classList.add("invisivel");
+    document.querySelectorAll(".orbita")[2].classList.add("invisivel");
+    for(x=4;x<8;x++){
+    document.querySelectorAll(".orbita")[x].classList.add("invisivel");
+}
+}
+
+// Jupiter
+
+document.querySelectorAll(".navul li")[5].addEventListener("mouseover",()=>handleHoverJUP())
+document.querySelectorAll(".navul li")[5].addEventListener("mouseout",()=>mouseForaJUP())
+
+function mouseForaJUP(){
+    for(x=0;x<4;x++){
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
+    }
+    for(x=4;x<8;x++) {
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
+    }
+}
+
+function handleHoverJUP(){
+    for(x=0;x<4;x++){
+        document.querySelectorAll(".orbita")[x].classList.add("invisivel");
+    }
+    for(x=5;x<8;x++){
+    document.querySelectorAll(".orbita")[x].classList.add("invisivel");
+}
+}
+
+//Saturno
+
+document.querySelectorAll(".navul li")[6].addEventListener("mouseover",()=>handleHoverSAT())
+document.querySelectorAll(".navul li")[6].addEventListener("mouseout",()=>mouseForaSAT())
+
+function mouseForaSAT(){
+    for(x=0;x<5;x++){
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
+    }
+    for(x=5;x<8;x++) {
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
+    }
+}
+
+function handleHoverSAT(){
+    for(x=0;x<5;x++){
+        document.querySelectorAll(".orbita")[x].classList.add("invisivel");
+    }
+    for(x=6;x<8;x++){
+    document.querySelectorAll(".orbita")[x].classList.add("invisivel");
+}
+}
+
+//Urano
+
+document.querySelectorAll(".navul li")[7].addEventListener("mouseover",()=>handleHoverURA())
+document.querySelectorAll(".navul li")[7].addEventListener("mouseout",()=>mouseForaURA())
+
+function mouseForaURA(){
+    for(x=0;x<6;x++){
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
+    }
+    for(x=6;x<8;x++) {
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
+    }
+}
+
+function handleHoverURA(){
+    for(x=0;x<6;x++){
+        document.querySelectorAll(".orbita")[x].classList.add("invisivel");
+    }
+    for(x=7;x<8;x++){
+    document.querySelectorAll(".orbita")[x].classList.add("invisivel");
+}
+}
+
+//Netuno
+
+document.querySelectorAll(".navul li")[8].addEventListener("mouseover",()=>handleHoverNET())
+document.querySelectorAll(".navul li")[8].addEventListener("mouseout",()=>mouseForaNET())
+
+function mouseForaNET(){
+    for(x=0;x<7;x++){
+        document.querySelectorAll(".orbita")[x].classList.remove("invisivel");
+    }
+}
+
+function handleHoverNET(){
+    for(x=0;x<7;x++){
+        document.querySelectorAll(".orbita")[x].classList.add("invisivel");
+    }
 }
