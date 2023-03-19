@@ -278,3 +278,10 @@ footer{
     }
 }
 
+.invisivel{
+    display: none;
+}
+
+.visivel{
+    display: block;
+}
