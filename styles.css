@@ -209,10 +209,7 @@ width: 100%;
 }
 
 .icone:hover{
-    position: absolute;
-    left: 85%;
-    top: 80%;
-    color: rgb(255, 249, 166);
+    color: rgb(223, 223, 223);
 }
 
 .textbox{
