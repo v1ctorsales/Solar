@@ -1,3 +1,5 @@
+//Sol
+
 document.querySelectorAll(".navul li")[0].addEventListener("mouseover",()=>handleHoverSOL())
 document.querySelectorAll(".navul li")[0].addEventListener("mouseout",()=>mouseForaSOL())
 
@@ -177,4 +179,8 @@ function handleHoverNET(){
     for(x=0;x<7;x++){
         document.querySelectorAll(".orbita")[x].classList.add("invisivel");
     }
+}
+
+function netunoCard(){
+    alert('teste');
 }

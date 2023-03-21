@@ -202,21 +202,28 @@ width: 100%;
     width: 35%;
 }
 
-.icone{
+.info{
     position: absolute;
-    left: 85%;
-    top: 80%;
+    left: 75%;
+    top: 70%;
+    flex-direction: column;
+    text-align: center;
 }
 
-.icone:hover{
-    color: rgb(223, 223, 223);
+.icone:hover  + .textbox{
+    visibility:visible;
 }
 
 .textbox{
-    position: absolute;
-    left: 85%;
-    top: 70%;
-    display: none;
+    margin-top: 5%;
+    height: max-content;
+    width:300px;
+    background-color: #0d001f;
+    border: 2px solid rgb(52, 23, 70);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    visibility:hidden;
 }
 
 a{
@@ -281,4 +288,18 @@ footer{
 
 .visivel{
     display: block;
+}
+
+
+.cardNetuno{
+    z-index: 9;
+    position: absolute;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+    display: none;
 }
