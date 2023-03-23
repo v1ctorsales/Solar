@@ -2,6 +2,13 @@ html {
     height: 100%;
   }
 
+  h1{
+    color: rgb(223, 223, 223);
+  }
+  p{
+    color: rgb(223, 223, 223);
+  }
+
 body{
     height: 80vh;
     max-height: 80vh;
@@ -208,9 +215,11 @@ width: 100%;
     top: 70%;
     flex-direction: column;
     text-align: center;
+    color: #bdbdbd;
 }
 
 .icone:hover  + .textbox{
+    color: #bdbdbd;
     visibility:visible;
 }
 
@@ -321,10 +330,17 @@ footer{
     width: 40px;
     height: 40px;
     border-radius: 50px;
-    /*background-color: rgb(107, 1, 1);*/
+    background-color: rgb(128, 85, 85);
     border: 2px solid rgb(110, 0, 0);
     position:absolute;
     display: block;
     top:0px;
     right:0px;
+    font-size:30px;
+    color: rgb(163, 163, 163);
+}
+
+.fechar:hover{
+background-color: rgb(131, 46, 46);
+color: rgb(255, 255, 255);
 }

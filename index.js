@@ -182,5 +182,11 @@ function handleHoverNET(){
 }
 
 function netunoCard(){
-    alert('teste');
+    document.querySelectorAll(".cardNetuno")[0].classList.remove("invisivel");
+    document.querySelectorAll(".cardNetuno")[0].classList.add("visivel");
+}
+
+function netunofecharCard(){
+    document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
 }
