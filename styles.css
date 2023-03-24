@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    font-family: arial, sans-serif;
   }
 
   h1{
@@ -14,6 +15,24 @@ body{
     max-height: 80vh;
     background-color: #0d001f;
 }
+
+table {
+    width: 69%;
+    border-collapse: collapse;
+    position: absolute;
+    right:0;
+    margin: 2% 5%;
+    color: #dddddd;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #141414;
+  }
 
 ul{
     list-style-type: none
@@ -300,7 +319,7 @@ footer{
 }
 
 
-.cardNetuno{
+.cardPlaneta{
     z-index: 9;
     position: absolute;
     text-align: center;
@@ -308,8 +327,9 @@ footer{
     width: 75%;
     left: 12.5%;
     top: 12.5%;
-    background-color: rgb(34, 34, 34);
-    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(1,0,3,0.013042717086834688) 0%, rgba(8,8,8,1) 27%, rgba(8,8,8,1) 100%);
+    background-color: #000000;
+    border-radius: 20px;
     object-fit: cover;
     overflow: hidden;
 }
@@ -322,7 +342,7 @@ footer{
 }
 
 .cardtexto{
-    padding-left: 20%;
+    padding-left:26%;
     padding-right: 5%;
 }
 

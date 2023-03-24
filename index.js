@@ -164,6 +164,19 @@ function handleHoverURA(){
 }
 }
 
+function uranoCard(){
+    document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
+
+    document.querySelectorAll(".cardUrano")[0].classList.remove("invisivel");
+    document.querySelectorAll(".cardUrano")[0].classList.add("visivel");
+}
+
+function uranofecharCard(){
+    document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
+}
+
 //Netuno
 
 document.querySelectorAll(".navul li")[8].addEventListener("mouseover",()=>handleHoverNET())
@@ -182,6 +195,9 @@ function handleHoverNET(){
 }
 
 function netunoCard(){
+    document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
+    
     document.querySelectorAll(".cardNetuno")[0].classList.remove("invisivel");
     document.querySelectorAll(".cardNetuno")[0].classList.add("visivel");
 }
