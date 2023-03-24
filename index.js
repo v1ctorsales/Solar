@@ -118,6 +118,23 @@ function handleHoverJUP(){
 }
 }
 
+function jupiterCard(){
+    document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
+    
+    document.querySelectorAll(".cardJupiter")[0].classList.remove("invisivel");
+    document.querySelectorAll(".cardJupiter")[0].classList.add("visivel");
+}
+
+function jupiterfecharCard(){
+    document.querySelectorAll(".cardJupiter")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardJupiter")[0].classList.add("invisivel");
+}
+
 //Saturno
 
 document.querySelectorAll(".navul li")[6].addEventListener("mouseover",()=>handleHoverSAT())
@@ -146,6 +163,8 @@ function saturnoCard(){
     document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
     document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
     document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardJupiter")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardJupiter")[0].classList.add("invisivel");
     
     document.querySelectorAll(".cardSaturno")[0].classList.remove("invisivel");
     document.querySelectorAll(".cardSaturno")[0].classList.add("visivel");
@@ -184,6 +203,8 @@ function uranoCard(){
     document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
     document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
     document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardJupiter")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardJupiter")[0].classList.add("invisivel");
 
     document.querySelectorAll(".cardUrano")[0].classList.remove("invisivel");
     document.querySelectorAll(".cardUrano")[0].classList.add("visivel");
@@ -216,6 +237,8 @@ function netunoCard(){
     document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
     document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
     document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardJupiter")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardJupiter")[0].classList.add("invisivel");
     
     document.querySelectorAll(".cardNetuno")[0].classList.remove("invisivel");
     document.querySelectorAll(".cardNetuno")[0].classList.add("visivel");
