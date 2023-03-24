@@ -15,6 +15,20 @@ function handleHoverSOL(){
 }
 }
 
+function solCard(){
+    for(y=0;y<9;y++){
+        document.querySelectorAll(".cardPlaneta")[y].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[y].classList.add("invisivel");
+    }
+    document.querySelectorAll(".cardPlaneta")[0].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[0].classList.add("visivel");
+}
+
+function solfecharCard(){
+    document.querySelectorAll(".cardPlaneta")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[0].classList.add("invisivel");
+}
+
 // Mercurio
 
 document.querySelectorAll(".navul li")[1].addEventListener("mouseover",()=>handleHoverMER())
@@ -30,6 +44,20 @@ function handleHoverMER(){
     for(x=1;x<8;x++){
     document.querySelectorAll(".orbita")[x].classList.add("invisivel");
 }
+}
+
+function mercurioCard(){
+    for(y=0;y<9;y++){
+        document.querySelectorAll(".cardPlaneta")[y].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[y].classList.add("invisivel");
+    }
+    document.querySelectorAll(".cardPlaneta")[1].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[1].classList.add("visivel");
+}
+
+function mercuriofecharCard(){
+    document.querySelectorAll(".cardPlaneta")[1].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[1].classList.add("invisivel");
 }
 
 // Venus
@@ -49,6 +77,20 @@ function handleHoverVEN(){
     for(x=2;x<8;x++){
     document.querySelectorAll(".orbita")[x].classList.add("invisivel");
 }
+}
+
+function venusCard(){
+    for(y=0;y<9;y++){
+        document.querySelectorAll(".cardPlaneta")[y].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[y].classList.add("invisivel");
+    }
+    document.querySelectorAll(".cardPlaneta")[2].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[2].classList.add("visivel");
+}
+
+function venusfecharCard(){
+    document.querySelectorAll(".cardPlaneta")[2].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[2].classList.add("invisivel");
 }
 
 // Terra
@@ -72,6 +114,20 @@ function handleHoverTER(){
 }
 }
 
+function terraCard(){
+    for(y=0;y<9;y++){
+        document.querySelectorAll(".cardPlaneta")[y].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[y].classList.add("invisivel");
+    }
+    document.querySelectorAll(".cardPlaneta")[3].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[3].classList.add("visivel");
+}
+
+function terrafecharCard(){
+    document.querySelectorAll(".cardPlaneta")[3].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[3].classList.add("invisivel");
+}
+
 // Marte
 
 document.querySelectorAll(".navul li")[4].addEventListener("mouseover",()=>handleHoverMAR())
@@ -93,6 +149,20 @@ function handleHoverMAR(){
     for(x=4;x<8;x++){
     document.querySelectorAll(".orbita")[x].classList.add("invisivel");
 }
+}
+
+function marteCard(){
+    for(y=0;y<9;y++){
+        document.querySelectorAll(".cardPlaneta")[y].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[y].classList.add("invisivel");
+    }
+    document.querySelectorAll(".cardPlaneta")[4].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[4].classList.add("visivel");
+}
+
+function martefecharCard(){
+    document.querySelectorAll(".cardPlaneta")[4].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[4].classList.add("invisivel");
 }
 
 // Jupiter
@@ -119,20 +189,18 @@ function handleHoverJUP(){
 }
 
 function jupiterCard(){
-    document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
-    document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
-    document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
+    for(x=0;x<9;x++){
+        document.querySelectorAll(".cardPlaneta")[x].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[x].classList.add("invisivel");
+    }
     
-    document.querySelectorAll(".cardJupiter")[0].classList.remove("invisivel");
-    document.querySelectorAll(".cardJupiter")[0].classList.add("visivel");
+    document.querySelectorAll(".cardPlaneta")[5].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[5].classList.add("visivel");
 }
 
 function jupiterfecharCard(){
-    document.querySelectorAll(".cardJupiter")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardJupiter")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardPlaneta")[5].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[5].classList.add("invisivel");
 }
 
 //Saturno
@@ -159,20 +227,18 @@ function handleHoverSAT(){
 }
 
 function saturnoCard(){
-    document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
-    document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
-    document.querySelectorAll(".cardJupiter")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardJupiter")[0].classList.add("invisivel");
+    for(x=0;x<9;x++){
+        document.querySelectorAll(".cardPlaneta")[x].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[x].classList.add("invisivel");
+    }
     
-    document.querySelectorAll(".cardSaturno")[0].classList.remove("invisivel");
-    document.querySelectorAll(".cardSaturno")[0].classList.add("visivel");
+    document.querySelectorAll(".cardPlaneta")[6].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[6].classList.add("visivel");
 }
 
 function saturnofecharCard(){
-    document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardPlaneta")[6].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[6].classList.add("invisivel");
 }
 
 //Urano
@@ -199,20 +265,18 @@ function handleHoverURA(){
 }
 
 function uranoCard(){
-    document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
-    document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
-    document.querySelectorAll(".cardJupiter")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardJupiter")[0].classList.add("invisivel");
-
-    document.querySelectorAll(".cardUrano")[0].classList.remove("invisivel");
-    document.querySelectorAll(".cardUrano")[0].classList.add("visivel");
+    for(x=0;x<9;x++){
+        document.querySelectorAll(".cardPlaneta")[x].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[x].classList.add("invisivel");
+    }
+    
+    document.querySelectorAll(".cardPlaneta")[7].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[7].classList.add("visivel");
 }
 
 function uranofecharCard(){
-    document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardPlaneta")[7].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[7].classList.add("invisivel");
 }
 
 //Netuno
@@ -233,18 +297,17 @@ function handleHoverNET(){
 }
 
 function netunoCard(){
-    document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
-    document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
-    document.querySelectorAll(".cardJupiter")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardJupiter")[0].classList.add("invisivel");
+
+    for(x=0;x<8;x++){
+        document.querySelectorAll(".cardPlaneta")[x].classList.remove("visivel");
+        document.querySelectorAll(".cardPlaneta")[x].classList.add("invisivel");
+    }
     
-    document.querySelectorAll(".cardNetuno")[0].classList.remove("invisivel");
-    document.querySelectorAll(".cardNetuno")[0].classList.add("visivel");
+    document.querySelectorAll(".cardPlaneta")[8].classList.remove("invisivel");
+    document.querySelectorAll(".cardPlaneta")[8].classList.add("visivel");
 }
 
 function netunofecharCard(){
-    document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
-    document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardPlaneta")[8].classList.remove("visivel");
+    document.querySelectorAll(".cardPlaneta")[8].classList.add("invisivel");
 }

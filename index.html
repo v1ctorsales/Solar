@@ -12,17 +12,217 @@
 <body>
     <div class="nav">
     <ul class="navul">
-        <li class="1">Sol</li>
-        <li class="2">Mercúrio</li>
-        <li class="3">Vênus</li>
-        <li class="4">Terra</li>
-        <li class="5">Marte</li>
+        <li class="1" onclick="solCard()">Sol</li>
+        <li class="2" onclick="mercurioCard()">Mercúrio</li>
+        <li class="3" onclick="venusCard()">Vênus</li>
+        <li class="4" onclick="terraCard()">Terra</li>
+        <li class="5" onclick="marteCard()">Marte</li>
         <li class="6" onclick="jupiterCard()">Júpiter</li>
         <li class="7" onclick="saturnoCard()">Saturno</li>
         <li class="8" onclick="uranoCard()">Urano</li>
         <li class="9" onclick="netunoCard()">Netuno</li>
     </ul></div>
     <div class="cardholder">
+        <div class="cardPlaneta cardSol invisivel">
+            <div class="imagemplaneta slr"><img class="planetahd" src="img/hd-sol2.png"></div>
+            <div class="cardtexto"><h1>Sol</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa, saepe quisquam praesentium omnis nisi doloremque ratione expedita! Officia, ipsa exercitationem. Praesentium porro, dolor nobis dicta quisquam earum vel. Aut iusto quos saepe. Doloribus provident laborum quidem vero minus tempore aliquam illum, architecto quisquam dolorem eaque dolore fugit ab obcaecati.</p></div>
+            <div class="cardtabela"><table>
+                <tr>
+                  <th>Ano de descoberta</th>
+                  <td>-</td>
+                </tr>
+                <tr>
+                    <th>Tipo</th>
+                    <td>Estrela</td>
+                </tr>
+                <tr>
+                    <th>Duração do Dia (Rotação)</th>
+                  <td>27 dias terrestres</td>
+                </tr>
+                <tr>
+                  <th>Duração do Ano (Translação)</th>
+                  <td>-</td>
+                </tr>
+                <tr>
+                    <th>Temperatura Média</th>
+                  <td>5500°C</td>
+                </tr>
+                <tr>
+                    <th>Distância do Sol</th>
+                  <td>-</td>
+                </tr>
+                <tr>
+                    <th>Diâmetro Equatorial</th>
+                  <td>1.392.700 km</td>
+                </tr>
+                <tr>
+                    <th>Massa</th>
+                    <td>1,989 × 10^30 kg</td>
+                  </tr>
+              </table></div>
+            <button class="fechar" onclick="solfecharCard()">&times;</button>
+        </div>
+        <div class="cardPlaneta cardMercurio invisivel">
+            <div class="imagemplaneta"><img class="planetahd" src="img/hd-mercurio.png"></div>
+            <div class="cardtexto"><h1>Mercúrio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa, saepe quisquam praesentium omnis nisi doloremque ratione expedita! Officia, ipsa exercitationem. Praesentium porro, dolor nobis dicta quisquam earum vel. Aut iusto quos saepe. Doloribus provident laborum quidem vero minus tempore aliquam illum, architecto quisquam dolorem eaque dolore fugit ab obcaecati.</p></div>
+            <div class="cardtabela"><table>
+                <tr>
+                  <th>Ano de descoberta</th>
+                  <td>1610</td>
+                </tr>
+                <tr>
+                    <th>Tipo</th>
+                    <td>Rochoso</td>
+                </tr>
+                <tr>
+                    <th>Duração do Dia (Rotação)</th>
+                  <td>59 dias terrestres</td>
+                </tr>
+                <tr>
+                  <th>Duração do Ano (Translação)</th>
+                  <td>88 dias terrestres</td>
+                </tr>
+                <tr>
+                    <th>Temperatura Média</th>
+                  <td>179°C</td>
+                </tr>
+                <tr>
+                    <th>Distância do Sol</th>
+                  <td>57.909.227 km</td>
+                </tr>
+                <tr>
+                    <th>Diâmetro Equatorial</th>
+                  <td>4.879,4 km</td>
+                </tr>
+                <tr>
+                    <th>Massa</th>
+                    <td>13,285 x 10^23 kg</td>
+                  </tr>
+              </table></div>
+            <button class="fechar" onclick="mercuriofecharCard()">&times;</button>
+        </div>
+        <div class="cardPlaneta cardVenus invisivel">
+            <div class="imagemplaneta"><img class="planetahd" src="img/hd-venus.png"></div>
+            <div class="cardtexto"><h1>Vênus</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa, saepe quisquam praesentium omnis nisi doloremque ratione expedita! Officia, ipsa exercitationem. Praesentium porro, dolor nobis dicta quisquam earum vel. Aut iusto quos saepe. Doloribus provident laborum quidem vero minus tempore aliquam illum, architecto quisquam dolorem eaque dolore fugit ab obcaecati.</p></div>
+            <div class="cardtabela"><table>
+                <tr>
+                  <th>Ano de descoberta</th>
+                  <td>1610</td>
+                </tr>
+                <tr>
+                    <th>Tipo</th>
+                    <td>Rochoso</td>
+                </tr>
+                <tr>
+                    <th>Duração do Dia (Rotação)</th>
+                  <td>243 dias terrestres</td>
+                </tr>
+                <tr>
+                  <th>Duração do Ano (Translação)</th>
+                  <td>225 dias terrestres</td>
+                </tr>
+                <tr>
+                    <th>Temperatura Média</th>
+                  <td>426°C</td>
+                </tr>
+                <tr>
+                    <th>Distância do Sol</th>
+                  <td>108.209.475 km</td>
+                </tr>
+                <tr>
+                    <th>Diâmetro Equatorial</th>
+                  <td>12.104 km</td>
+                </tr>
+                <tr>
+                    <th>Massa</th>
+                    <td>4,867 × 10^24 kg</td>
+                  </tr>
+              </table></div>
+            <button class="fechar" onclick="venusfecharCard()">&times;</button>
+        </div>
+        <div class="cardPlaneta cardTerra invisivel">
+            <div class="imagemplaneta"><img class="planetahd" src="img/hd-terra.png"></div>
+            <div class="cardtexto"><h1>Terra</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa, saepe quisquam praesentium omnis nisi doloremque ratione expedita! Officia, ipsa exercitationem. Praesentium porro, dolor nobis dicta quisquam earum vel. Aut iusto quos saepe. Doloribus provident laborum quidem vero minus tempore aliquam illum, architecto quisquam dolorem eaque dolore fugit ab obcaecati.</p></div>
+            <div class="cardtabela"><table>
+                <tr>
+                  <th>Ano de descoberta</th>
+                  <td>-</td>
+                </tr>
+                <tr>
+                    <th>Tipo</th>
+                    <td>Rochoso</td>
+                </tr>
+                <tr>
+                    <th>Duração do Dia (Rotação)</th>
+                  <td>23h 56m terrestres</td>
+                </tr>
+                <tr>
+                  <th>Duração do Ano (Translação)</th>
+                  <td>365 dias terrestres</td>
+                </tr>
+                <tr>
+                    <th>Temperatura Média</th>
+                  <td>14°C</td>
+                </tr>
+                <tr>
+                    <th>Distância do Sol</th>
+                  <td>149 600 000 km</td>
+                </tr>
+                <tr>
+                    <th>Diâmetro Equatorial</th>
+                  <td>12.742 km</td>
+                </tr>
+                <tr>
+                    <th>Massa</th>
+                    <td>5,972 × 10^24 kg</td>
+                  </tr>
+              </table></div>
+            <button class="fechar" onclick="terrafecharCard()">&times;</button>
+        </div>
+        <div class="cardPlaneta cardMarte invisivel">
+            <div class="imagemplaneta"><img class="planetahd" src="img/hd-marte.png"></div>
+            <div class="cardtexto"><h1>Marte</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa, saepe quisquam praesentium omnis nisi doloremque ratione expedita! Officia, ipsa exercitationem. Praesentium porro, dolor nobis dicta quisquam earum vel. Aut iusto quos saepe. Doloribus provident laborum quidem vero minus tempore aliquam illum, architecto quisquam dolorem eaque dolore fugit ab obcaecati.</p></div>
+            <div class="cardtabela"><table>
+                <tr>
+                  <th>Ano de descoberta</th>
+                  <td>1610</td>
+                </tr>
+                <tr>
+                    <th>Tipo</th>
+                    <td>Rochoso</td>
+                </tr>
+                <tr>
+                    <th>Duração do Dia (Rotação)</th>
+                  <td>1d 0h 37m terrestres</td>
+                </tr>
+                <tr>
+                  <th>Duração do Ano (Translação)</th>
+                  <td>687 dias terrestres</td>
+                </tr>
+                <tr>
+                    <th>Temperatura Média</th>
+                  <td>-55°C</td>
+                </tr>
+                <tr>
+                    <th>Distância do Sol</th>
+                  <td>227.943.824 km</td>
+                </tr>
+                <tr>
+                    <th>Diâmetro Equatorial</th>
+                  <td>6.779 km</td>
+                </tr>
+                <tr>
+                    <th>Massa</th>
+                    <td>6,39 × 10^23 kg</td>
+                  </tr>
+              </table></div>
+            <button class="fechar" onclick="martefecharCard()">&times;</button>
+        </div>
         <div class="cardPlaneta cardJupiter invisivel">
             <div class="imagemplaneta"><img class="planetahd" src="img/hd-jupiter.png"></div>
             <div class="cardtexto"><h1>Júpiter</h1>
@@ -144,7 +344,7 @@
             <button class="fechar" onclick="uranofecharCard()">&times;</button>
         </div>
         <div class="cardPlaneta cardNetuno invisivel">
-            <div class="imagemplaneta"><img class="planetahd" src="img/hd-netuno.png"></div>
+            <div class="imagemplaneta"><img class="planetahd" src="img/netuno.png"></div>
             <div class="cardtexto"><h1>Netuno</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ipsa, saepe quisquam praesentium omnis nisi doloremque ratione expedita! Officia, ipsa exercitationem. Praesentium porro, dolor nobis dicta quisquam earum vel. Aut iusto quos saepe. Doloribus provident laborum quidem vero minus tempore aliquam illum, architecto quisquam dolorem eaque dolore fugit ab obcaecati.</p></div>
             <div class="cardtabela"><table>
@@ -224,7 +424,6 @@
             Escalas e proporções não devem ser levadas em consideração.
         </div>
     </div>
-
         <script src="index.js"></script>
 </body>
 <footer>

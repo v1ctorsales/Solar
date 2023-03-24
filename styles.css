@@ -342,11 +342,16 @@ footer{
     right: 60%;
 }
 
+.slr .planetahd{
+    right: 60%;
+    top: 10%;
+}
+
 .planetahd{
     width: 50%;
     position: absolute;
     top: 1%;
-    right: 85%;
+    right: 80%;
 }
 
 .cardtexto{
