@@ -141,6 +141,21 @@ function handleHoverSAT(){
 }
 }
 
+function saturnoCard(){
+    document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
+    
+    document.querySelectorAll(".cardSaturno")[0].classList.remove("invisivel");
+    document.querySelectorAll(".cardSaturno")[0].classList.add("visivel");
+}
+
+function saturnofecharCard(){
+    document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
+}
+
 //Urano
 
 document.querySelectorAll(".navul li")[7].addEventListener("mouseover",()=>handleHoverURA())
@@ -167,6 +182,8 @@ function handleHoverURA(){
 function uranoCard(){
     document.querySelectorAll(".cardNetuno")[0].classList.remove("visivel");
     document.querySelectorAll(".cardNetuno")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
 
     document.querySelectorAll(".cardUrano")[0].classList.remove("invisivel");
     document.querySelectorAll(".cardUrano")[0].classList.add("visivel");
@@ -197,6 +214,8 @@ function handleHoverNET(){
 function netunoCard(){
     document.querySelectorAll(".cardUrano")[0].classList.remove("visivel");
     document.querySelectorAll(".cardUrano")[0].classList.add("invisivel");
+    document.querySelectorAll(".cardSaturno")[0].classList.remove("visivel");
+    document.querySelectorAll(".cardSaturno")[0].classList.add("invisivel");
     
     document.querySelectorAll(".cardNetuno")[0].classList.remove("invisivel");
     document.querySelectorAll(".cardNetuno")[0].classList.add("visivel");

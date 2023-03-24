@@ -315,9 +315,13 @@ footer{
 }
 
 .visivel{
+    animation: fadeIn 1s;
     display: block;
 }
-
+@keyframes fadeIn {
+    0% { width: 0%;; }
+    100% { width: 75%;; }
+  }
 
 .cardPlaneta{
     z-index: 9;
@@ -327,11 +331,15 @@ footer{
     width: 75%;
     left: 12.5%;
     top: 12.5%;
-    background: linear-gradient(90deg, rgba(1,0,3,0.013042717086834688) 0%, rgba(8,8,8,1) 27%, rgba(8,8,8,1) 100%);
+    background: linear-gradient(90deg, rgba(1,0,3,0.013042717086834688) 0%, rgba(12,12,12,1) 27%, rgba(12,12,12,1) 100%);
     background-color: #000000;
     border-radius: 20px;
     object-fit: cover;
     overflow: hidden;
+}
+
+.stn .planetahd{
+    right: 60%;
 }
 
 .planetahd{
@@ -364,3 +372,4 @@ footer{
 background-color: rgb(131, 46, 46);
 color: rgb(255, 255, 255);
 }
+
