@@ -42,10 +42,15 @@ ul{
     color: rgb(223, 223, 223);
     font-size: 24px;
     line-height: 2;
+    cursor: pointer;
  }
  li:hover{
     color: rgb(255, 255, 255);
     font-size: 25px;
+ }
+
+ button{
+    cursor: pointer;
  }
 .nav{
     margin: 120px 0 0 50px;
@@ -95,6 +100,7 @@ ul{
     animation-duration: 40s;
     top:250px;
     left: 250px;
+    cursor: default;
 }
 .img-sun{
 width: 100%;
