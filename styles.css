@@ -117,35 +117,35 @@ width: 100%;
 .orbita.um{
     height: 200px;
     width: 200px;
-    animation-duration: 4s;
+    animation-duration: 6s;
     top: 200px;
     left: 200px;
 }
 .orbita.dois{
     height: 250px;
     width: 250px;
-    animation-duration: 25s;
+    animation-duration: 15s;
     top: 175px;
     left: 175px;
 }
 .orbita.tres{
     height: 325px;
     width: 325px;  
-    animation-duration: 100s;
+    animation-duration: 22.5s;
     top: 137.5px;
     left: 137.5px;
 }
 .orbita.quatro{
     height: 400px;
     width: 400px;  
-    animation-duration: 100s;
+    animation-duration: 41.25s;
     top: 100px;
     left: 100px;
 }
 .orbita.cinco{
     height: 500px;
     width: 500px;  
-    animation-duration: 150s;
+    animation-duration: 135s;
     top: 50px;
     left: 50px;
     z-index: -9999999999999;
@@ -153,21 +153,21 @@ width: 100%;
 .orbita.seis{
     height: 600px;
     width: 600px;  
-    animation-duration: 200s;
+    animation-duration: 326s;
     top: 0px;
     left: 0px;
 }
 .orbita.sete{
     height: 700px;
     width: 700px;  
-    animation-duration: 250s;
+    animation-duration: 900s;
     top: -50px;
     left: -50px;
 }
 .orbita.oito{
     height: 800px;
     width: 800px;  
-    animation-duration: 300s;
+    animation-duration: 1800s;
     top: -100px;
     left: -100px;
 }
