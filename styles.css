@@ -13,7 +13,7 @@ html {
 body{
     height: 80vh;
     max-height: 80vh;
-    background-color: #0d001f;
+    background-color: #08070f;
 }
 
 table {
@@ -145,7 +145,7 @@ width: 100%;
 .orbita.cinco{
     height: 500px;
     width: 500px;  
-    animation-duration: 135s;
+    animation-duration: 70s;
     top: 50px;
     left: 50px;
     z-index: -9999999999999;
@@ -153,21 +153,21 @@ width: 100%;
 .orbita.seis{
     height: 600px;
     width: 600px;  
-    animation-duration: 326s;
+    animation-duration: 163s;
     top: 0px;
     left: 0px;
 }
 .orbita.sete{
     height: 700px;
     width: 700px;  
-    animation-duration: 900s;
+    animation-duration: 450s;
     top: -50px;
     left: -50px;
 }
 .orbita.oito{
     height: 800px;
     width: 800px;  
-    animation-duration: 1800s;
+    animation-duration: 900s;
     top: -100px;
     left: -100px;
 }
