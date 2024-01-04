@@ -354,6 +354,7 @@ footer{
     position: absolute;
     top: 1%;
     right: 80%;
+    animation: girarInfinito 780s linear infinite;
 }
 
 .cardtexto{
@@ -379,4 +380,13 @@ footer{
 background-color: rgb(131, 46, 46);
 color: rgb(255, 255, 255);
 }
+
+@keyframes girarInfinito {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
 
